@@ -1,0 +1,369 @@
+/* RESPONSIVE */
+@media screen and (max-width: 575.98px) {
+  .jumbotron {
+    padding-top: 4.7rem;
+  }
+
+  .jumbotron .jumbotron__img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .jumbotron .jumbotron__img img,
+  .service .service__img img {
+    width: 100%;
+  }
+
+  .find .card {
+    width: 90%;
+  }
+
+  .testimonial .owl-carousel {
+    padding: 0 16px;
+  }
+
+  .testimonial .testimonial__cards {
+    flex-direction: column;
+    padding: 40px 32px;
+  }
+
+  .started .started__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .started .started__button {
+    margin-top: 32px;
+  }
+
+  .service,
+  .why,
+  .testimonial,
+  .started,
+  .faq,
+  .footer {
+    padding-top: 3.7rem;
+  }
+
+  .footer {
+    padding-bottom: 3.7rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .jumbotron {
+    padding-top: 4.7rem;
+  }
+
+  .jumbotron .jumbotron__img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .jumbotron .jumbotron__img img,
+  .service .service__img img {
+    width: 95%;
+  }
+
+  .find .card {
+    width: 80%;
+  }
+
+  .testimonial .owl-carousel {
+    padding: 0 16px;
+  }
+
+  .testimonial .testimonial__cards {
+    flex-direction: column;
+    padding: 40px 32px;
+  }
+
+  .started .started__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .started .started__button {
+    margin-top: 32px;
+  }
+
+  .service,
+  .why,
+  .testimonial,
+  .started,
+  .faq,
+  .footer {
+    padding-top: 3.7rem;
+  }
+
+  .footer {
+    padding-bottom: 3.7rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 4.7rem;
+  }
+
+  .jumbotron .jumbotron__img {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .jumbotron .jumbotron__img img,
+  .service .service__img img {
+    width: 700px;
+  }
+
+  .find .card {
+    width: 60%;
+  }
+
+  .testimonial .owl-carousel {
+    padding: 0 0;
+  }
+
+  .testimonial .testimonial__cards {
+    flex-direction: column;
+    padding: 40px 32px;
+  }
+
+  .started .started__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+  }
+
+  .started .started__button {
+    margin-top: 32px;
+  }
+
+  .service,
+  .why,
+  .testimonial,
+  .started,
+  .faq,
+  .footer {
+    padding-top: 3.7rem;
+  }
+
+  .footer {
+    padding-bottom: 3.7rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .jumbotron {
+    padding-top: 4.7rem;
+  }
+
+  .jumbotron .jumbotron__img {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .jumbotron .jumbotron__img img,
+  .service .service__img img {
+    width: 800px;
+  }
+
+  .find .card {
+    width: 100%;
+  }
+
+  .testimonial .owl-carousel {
+    padding: 0 0;
+  }
+
+  .testimonial .testimonial__cards {
+    flex-direction: row;
+    padding: 60px 40px;
+  }
+
+  .started .started__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+  }
+
+  .started .started__button {
+    margin-top: 52px;
+  }
+
+  .service,
+  .why,
+  .testimonial,
+  .started,
+  .faq {
+    padding-top: 6.2rem;
+  }
+
+  .footer {
+    padding-top: 9.3rem;
+    padding-bottom: 6.2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .jumbotron {
+    padding-top: 5rem;
+  }
+
+  .jumbotron .jumbotron__img {
+    display: block;
+    margin-top: 0rem;
+  }
+
+  .jumbotron .jumbotron__img img,
+  .service .service__img img {
+    width: 590px;
+  }
+
+  .find .card {
+    width: 100%;
+  }
+
+  .testimonial .owl-carousel {
+    padding: 0 0;
+  }
+
+  .testimonial .testimonial__cards {
+    flex-direction: row;
+    padding: 60px 40px;
+  }
+
+  .started .started__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+  }
+
+  .started .started__button {
+    margin-top: 52px;
+  }
+
+  .service,
+  .why,
+  .testimonial,
+  .started,
+  .faq {
+    padding-top: 6.2rem;
+  }
+
+  .footer {
+    padding-top: 9.3rem;
+    padding-bottom: 6.2rem;
+  }
+}
+
+
+@media screen and (min-width: 1366px) {
+  .jumbotron {
+    padding-top: 5rem;
+  }
+
+  .jumbotron .jumbotron__img {
+    display: block;
+    margin-top: 0rem;
+  }
+
+  .jumbotron .jumbotron__img img,
+  .service .service__img img {
+    width: 660px;
+  }
+
+  .find .card {
+    width: 100%;
+  }
+
+  .testimonial .owl-carousel {
+    padding: 0 0;
+  }
+
+  .testimonial .testimonial__cards {
+    flex-direction: row;
+    padding: 60px 40px;
+  }
+
+  .started .started__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+  }
+
+  .started .started__button {
+    margin-top: 52px;
+  }
+
+  .service,
+  .why,
+  .testimonial,
+  .started,
+  .faq {
+    padding-top: 6.2rem;
+  }
+
+  .footer {
+    padding-top: 9.3rem;
+    padding-bottom: 6.2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .jumbotron {
+    padding-top: 5rem;
+  }
+
+  .jumbotron .jumbotron__img {
+    display: block;
+    margin-top: 0rem;
+  }
+
+  .jumbotron .jumbotron__img img,
+  .service .service__img img {
+    width: 660px;
+  }
+
+  .find .card {
+    width: 100%;
+  }
+
+  .testimonial .owl-carousel {
+    padding: 0 0;
+  }
+
+  .testimonial .testimonial__cards {
+    flex-direction: row;
+    padding: 60px 40px;
+  }
+
+  .started .started__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+  }
+
+  .started .started__button {
+    margin-top: 52px;
+  }
+
+  .service,
+  .why,
+  .testimonial,
+  .started,
+  .faq {
+    padding-top: 6.2rem;
+  }
+
+  .footer {
+    padding-top: 9.3rem;
+    padding-bottom: 6.2rem;
+  }
+}
