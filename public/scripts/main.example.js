@@ -21,10 +21,10 @@ app.loadButton.addEventListener('click', () => {
   const tipeDriver = app.tipeDriver.value
   // const jumlahPenumpang = app.jumlahPenumpang.value
 
-  if (tipeDriver === "Dengan supir" || tipeDriver === "Tanpa supir") {
-    app.clear()
-    app.loadFilter().then(app.run)
-  } else {
+  if (tipeDriver === "Default") {
     app.init()
+  } else {
+    app.clear()
+    app.loadFilter(tipeDriver).then(app.run)
   }
 })

@@ -81,28 +81,36 @@
     <div class="d-flex justify-content-center">
       <div class="card shadow">
         <div class="card-body p-4">
-          <form action="#" method="get" onsubmit="return false">
+          <form id="myForm" action="#" method="get" onsubmit="return false">
             <div class="row">
-              <div class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-around align-items-xl-end align-items-lg-end align-items-sm-center align-items-md-center align-items-center gap-2">
-                <div class="d-flex flex-column align-items-xl-start align-items-lg-start align-items-md-center align-items-sm-center align-items-center justify-content-center">
+              <div
+                class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-around align-items-xl-end align-items-lg-end align-items-sm-center align-items-md-center align-items-center gap-2">
+                <div
+                  class="d-flex flex-column align-items-xl-start align-items-lg-start align-items-md-center align-items-sm-center align-items-center justify-content-center">
                   <label for="cars" class="form-label">Tipe Driver</label>
                   <select id="tipe-driver" class="form-select" aria-label="Default select example">
-                    <option selected disabled hidden>Pilih tipe driver</option>
-                    <option value="Dengan supir">Dengan supir</option>
-                    <option value="Tanpa supir">Tanpa Sopir (Lepas Kunci)</option>
+                    <option selected disabled hidden value="Default">Pilih tipe driver</option>
+                    <option value="true">Dengan supir</option>
+                    <option value="false">Tanpa Sopir (Lepas Kunci)</option>
                   </select>
                 </div>
-                <div class="d-flex flex-column align-items-xl-start align-items-lg-start align-items-md-center align-items-sm-center align-items-center justify-content-center">
+                <div
+                  class="d-flex flex-column align-items-xl-start align-items-lg-start align-items-md-center align-items-sm-center align-items-center justify-content-center">
                   <label for="tanggal" class="form-label">Tanggal</label>
                   <input id="tanggal" type="date" class="form-control find__forms" placeholder="Pilih tanggal">
                 </div>
-                <div class="d-flex flex-column align-items-xl-start align-items-lg-start align-items-md-center align-items-sm-center align-items-center justify-content-center">
-                  <label for="waktu-jemput" class="form-label">Waktu Jemput/Ambil</label>
-                  <input class="form-control find__forms" type="time" name="time" id="waktu-jemput" placeholder="Pilih waktu">
+                <div
+                  class="d-flex flex-column align-items-xl-start align-items-lg-start align-items-md-center align-items-sm-center align-items-center justify-content-center">
+                  <label for="waktu-jemput" class="form-label">Waktu Jemput/Ambil<sup
+                      style="color: red;">*</sup></label>
+                  <input class="form-control find__forms" type="time" name="time" id="waktu-jemput"
+                    placeholder="Pilih waktu" required disabled>
                 </div>
-                <div class="d-flex flex-column align-items-xl-start align-items-lg-start align-items-md-center align-items-sm-center align-items-center justify-content-center">
+                <div
+                  class="d-flex flex-column align-items-xl-start align-items-lg-start align-items-md-center align-items-sm-center align-items-center justify-content-center">
                   <label for="jumlah-penumpang" class="form-label">Jumlah Penumpang (optional)</label>
-                  <input id="jumlah-penumpang" class="form-control" type="number" name="" placeholder="Jumlah penumpang">
+                  <input id="jumlah-penumpang" class="form-control" type="number" name=""
+                    placeholder="Jumlah penumpang">
                 </div>
                 <div class="mt-xl-0 mt-lg-0 mt-md-2 mt-sm-2 mt-2">
                   <button id="load-btn" type="submit" class="button btn-lime-green">Cari Mobil</button>
@@ -118,91 +126,8 @@
 
   <!-- CARS -->
   <section class="cars container-md" id="cars">
-    <div id="cars-container" class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1">
-      <!-- <div class="col">
-        <div class="card shadow">
-          <img src="./img/img_cars.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h1 class="text-desc__2">Nama/Tipe Mobil</h1>
-            <h1 class="text-title__3 my-2">Rp 430.000 / hari</h1>
-            <p class="text-desc mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna
-              aliqua.
-            </p>
-            <div class="d-flex flex-column gap-2">
-              <div class="d-flex gap-2">
-                <img src="./svg/fi_users.svg" alt="" title="">
-                <p class="text-desc">4 Orang</p>
-              </div>
-              <div class="d-flex gap-2">
-                <img src="./svg/fi_settings.svg" alt="" title="">
-                <p class="text-desc">Manual</p>
-              </div>
-              <div class="d-flex gap-2">
-                <img src="./svg/fi_calendar.svg" alt="" title="">
-                <p class="text-desc">Tahun 2020</p>
-              </div>
-            </div>
-            <button class="button btn-lime-green mt-4">Pilih Mobil</button>
-          </div>
-        </div>
-      </div> -->
-      <!-- <div class="col">
-        <div class="card shadow">
-          <img src="./img/img_cars.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h1 class="text-desc__2">Nama/Tipe Mobil</h1>
-            <h1 class="text-title__3 my-2">Rp 430.000 / hari</h1>
-            <p class="text-desc mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna
-              aliqua.
-            </p>
-            <div class="d-flex flex-column gap-2">
-              <div class="d-flex gap-2">
-                <img src="./svg/fi_users.svg" alt="" title="">
-                <p class="text-desc">4 Orang</p>
-              </div>
-              <div class="d-flex gap-2">
-                <img src="./svg/fi_settings.svg" alt="" title="">
-                <p class="text-desc">Manual</p>
-              </div>
-              <div class="d-flex gap-2">
-                <img src="./svg/fi_calendar.svg" alt="" title="">
-                <p class="text-desc">Tahun 2020</p>
-              </div>
-            </div>
-            <button class="button btn-lime-green mt-4">Pilih Mobil</button>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card shadow">
-          <img src="./img/img_cars.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h1 class="text-desc__2">Nama/Tipe Mobil</h1>
-            <h1 class="text-title__3 my-2">Rp 430.000 / hari</h1>
-            <p class="text-desc mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna
-              aliqua.
-            </p>
-            <div class="d-flex flex-column gap-2">
-              <div class="d-flex gap-2">
-                <img src="./svg/fi_users.svg" alt="" title="">
-                <p class="text-desc">4 Orang</p>
-              </div>
-              <div class="d-flex gap-2">
-                <img src="./svg/fi_settings.svg" alt="" title="">
-                <p class="text-desc">Manual</p>
-              </div>
-              <div class="d-flex gap-2">
-                <img src="./svg/fi_calendar.svg" alt="" title="">
-                <p class="text-desc">Tahun 2020</p>
-              </div>
-            </div>
-            <button class="button btn-lime-green mt-4">Pilih Mobil</button>
-          </div>
-        </div>
-      </div> -->
+    <h1 class="mb-2 text-title__2 cari"></h1>
+    <div id="cars-container" class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 gy-3">
     </div>
   </section>
   <!-- END CARS -->
@@ -269,10 +194,20 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
     crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="./scripts/binar.js"></script>
-    <script type="text/javascript" src="./scripts/app.example.js"></script>
-    <script type="text/javascript" src="./scripts/car.example.js"></script>
-    <script type="text/javascript" src="./scripts/main.example.js"></script>
+  <script type="text/javascript" src="./scripts/binar.js"></script>
+  <script type="text/javascript" src="./scripts/app.example.js"></script>
+  <script type="text/javascript" src="./scripts/car.example.js"></script>
+  <script type="text/javascript" src="./scripts/main.example.js"></script>
+  <script>
+    const tanggal = document.getElementById("tanggal");
+    const waktuJemput = document.getElementById("waktu-jemput");
+
+    tanggal.addEventListener("change", () => {
+      if (tanggal.value !== "") {
+        waktuJemput.disabled = false
+      }
+    }) 
+  </script>
 </body>
 
 </html>

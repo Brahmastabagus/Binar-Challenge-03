@@ -62,11 +62,20 @@ class Car {
                 <img src="./svg/fi_calendar.svg" alt="" title="">
                 <p class="text-desc">Tahun ${this.year}</p>
               </div>
+              <div>
+                <p class="text-desc">${this.available === true ? "Dengan supir" : "Tanpa Supir"}</p>
+              </div>
             </div>
             <button class="button btn-lime-green mt-4">Pilih Mobil</button>
           </div>
         </div>
       </div>
     `;
+  }
+
+  static empty() {
+    return `
+      <h1 class="text-title__2">Data Tidak Ditemukan</h1>
+    `
   }
 }

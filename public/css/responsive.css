@@ -15,6 +15,10 @@
     width: 100%;
   }
 
+  .find .find__forms {
+    min-width: 220px;
+  }
+
   .find .card {
     width: 90%;
   }
@@ -66,6 +70,10 @@
   .jumbotron .jumbotron__img img,
   .service .service__img img {
     width: 95%;
+  }
+
+  .find .find__forms {
+    width: 220px;
   }
 
   .find .card {
@@ -121,6 +129,10 @@
     width: 700px;
   }
 
+  .find .find__forms {
+    width: 240px;
+  }
+
   .find .card {
     width: 60%;
   }
@@ -174,6 +186,10 @@
     width: 800px;
   }
 
+  .find .find__forms {
+    width: 240px;
+  }
+
   .find .card {
     width: 100%;
   }
@@ -224,6 +240,10 @@
   .jumbotron .jumbotron__img img,
   .service .service__img img {
     width: 590px;
+  }
+
+  .find .find__forms {
+    width: 240px;
   }
 
   .find .card {
@@ -279,6 +299,10 @@
     width: 660px;
   }
 
+  .find .find__forms {
+    width: 240px;
+  }
+
   .find .card {
     width: 100%;
   }
@@ -329,6 +353,10 @@
   .jumbotron .jumbotron__img img,
   .service .service__img img {
     width: 660px;
+  }
+
+  .find .find__forms {
+    width: 240px;
   }
 
   .find .card {
