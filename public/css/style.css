@@ -77,6 +77,10 @@ nav .offcanvas-body {
   padding-top: 27px;
 }
 
+.cars .desc {
+  height: 50px;
+}
+
 .cars .card {
   border-radius: 8px;
   border: 0;

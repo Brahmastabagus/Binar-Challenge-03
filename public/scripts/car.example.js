@@ -47,7 +47,7 @@ class Car {
           <div class="card-body">
             <h1 class="text-desc__2">${this.manufacture} ${this.model} / ${this.type}</h1>
             <h1 class="text-title__3 my-2">Rp ${this.rentPerDay.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} / hari</h1>
-            <p class="text-desc mb-3">${this.description}
+            <p class="text-desc desc mb-3">${this.description}
             </p>
             <div class="d-flex flex-column gap-2">
               <div class="d-flex gap-2">
